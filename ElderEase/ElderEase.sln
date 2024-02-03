@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElderEase", "ElderEase\ElderEase.csproj", "{C4643A1B-1C1D-45AA-B8C1-6FC5586CD3F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4643A1B-1C1D-45AA-B8C1-6FC5586CD3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4643A1B-1C1D-45AA-B8C1-6FC5586CD3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4643A1B-1C1D-45AA-B8C1-6FC5586CD3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4643A1B-1C1D-45AA-B8C1-6FC5586CD3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85D9A5B9-FD70-4482-95C4-25EB14FD7C8B}
+	EndGlobalSection
+EndGlobal
