@@ -29,3 +29,35 @@ C:\Users\Ishika\source\repos\Black Wings Hack\black-wings-hacks-2024\ElderEase\E
 C:\Users\Ishika\source\repos\Black Wings Hack\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.pdb
 C:\Users\Ishika\source\repos\Black Wings Hack\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.genruntimeconfig.cache
 C:\Users\Ishika\source\repos\Black Wings Hack\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ref\ElderEase.dll
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\appsettings.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\ElderEase.staticwebassets.runtime.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\ElderEase.exe
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\ElderEase.deps.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\ElderEase.runtimeconfig.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\ElderEase.dll
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\ElderEase.pdb
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.AssemblyInfoInputs.cache
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.AssemblyInfo.cs
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.csproj.CoreCompileInputs.cache
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.RazorAssemblyInfo.cache
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.RazorAssemblyInfo.cs
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.sourcelink.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\staticwebassets\msbuild.ElderEase.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\staticwebassets\msbuild.build.ElderEase.props
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ElderEase.props
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ElderEase.props
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\scopedcss\bundle\ElderEase.styles.css
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\scopedcss\projectbundle\ElderEase.bundle.scp.css
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.dll
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\refint\ElderEase.dll
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.pdb
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.genruntimeconfig.cache
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ref\ElderEase.dll
+C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\scopedcss\Pages\Shared\_LayoutWithoutNavBar.cshtml.rz.scp.css
