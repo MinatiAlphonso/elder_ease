@@ -11,9 +11,15 @@
             <input type="password" id="password" name="password" placeholder="Password" class="form-input">
             <a href="#" class="password-reset-link">Forgot your password?</a>
             <button class="signin-button">Sign In</button>
+
+            @{
+                var signUpHref = Model.Role == "client" ? "/Clients/Create" : "/Providers/Create";
+            }
             <div class="signup-link-container">
-                Not registered yet? <a href="#" class="signup-link">Sign Up Here</a>
+                Not registered yet?
+                <a href="@signUpHref" class="signup-link">Sign Up Here</a>
             </div>
+
         </div>
     </div>
 </div>
