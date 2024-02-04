@@ -11,4 +11,5 @@ ElderEase: Revolutionizing Senior Care Through Community and Technology. Our pla
 - Provider - Stores information about the volunteers and service providers. Contains a reference to the Service model
 - Service - Stores the service name, type(free or paid), and availability of the provider.
 
-
+### Hackathon Submission
+https://devpost.com/software/elder-ease
