@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ElderEase.Migrations
 {
     [DbContext(typeof(ElderEaseContext))]
-    [Migration("20240204025849_AddNewColumn")]
-    partial class AddNewColumn
+    [Migration("20240204085217_AddNewCol")]
+    partial class AddNewCol
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,6 +50,10 @@ namespace ElderEase.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("lastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

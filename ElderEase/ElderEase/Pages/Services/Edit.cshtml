@@ -1,0 +1,45 @@
+﻿@page
+@model ElderEase.Pages.Services.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Service</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Service.Id" />
+            <div class="form-group">
+                <label asp-for="Service.serviceType" class="control-label"></label>
+                <select asp-for="Service.serviceType" class="form-control"></select>
+                <span asp-validation-for="Service.serviceType" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Service.isAvailable" /> @Html.DisplayNameFor(model => model.Service.isAvailable)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Service.serviceName" class="control-label"></label>
+                <select asp-for="Service.serviceName" class="form-control"></select>
+                <span asp-validation-for="Service.serviceName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

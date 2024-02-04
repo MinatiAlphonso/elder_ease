@@ -5,7 +5,7 @@
 namespace ElderEase.Migrations
 {
     /// <inheritdoc />
-    public partial class AddNewColumn : Migration
+    public partial class AddNewCol : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -23,7 +23,8 @@ namespace ElderEase.Migrations
                     city = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     state = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     country = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    zipCode = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    zipCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    password = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

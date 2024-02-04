@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElderEase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61b05aea183e34ed88d7c6a0ab6493956f52987a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54b35a0fa8fdb1276a89544608d5d14deb083d7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElderEase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElderEase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

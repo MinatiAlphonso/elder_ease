@@ -56,11 +56,10 @@ namespace ElderEase.Pages.Providers
                 }
                 return Page();
             }
-            Provider.services = selectedServices;
             _context.Providers.Add(Provider);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Services/Index?Id=" + Provider.Id);
         }
     }
 }
