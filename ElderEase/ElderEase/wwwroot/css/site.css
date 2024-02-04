@@ -228,7 +228,7 @@ body {
     }
 }
 
-.div-14 {
+.welcome-portal {
     font-family: Poppins, sans-serif;
     border-radius: 10px;
     background-color: #f8d57e;
@@ -237,12 +237,12 @@ body {
 }
 
 @media (max-width: 991px) {
-    .div-14 {
+    .welcome-portal {
         white-space: initial;
     }
 }
 
-.div-15 {
+/*.div-15 {
     font-family: Poppins, sans-serif;
     justify-content: center;
     border-radius: 10px;
@@ -256,7 +256,7 @@ body {
         white-space: initial;
         padding: 0 20px;
     }
-}
+}*/
 
 .column-2 {
     display: flex;
