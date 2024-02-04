@@ -28,6 +28,6 @@ namespace ElderEase.Models
         public ServiceTypes serviceType {get; set; }
         public Boolean isAvailable { get; set; }
         public ServiceNames serviceName {  get; set; }
-   
+        public int ProviderId { get; internal set; }
     }
 }

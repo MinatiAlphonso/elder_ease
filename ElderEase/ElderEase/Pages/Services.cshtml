@@ -1,0 +1,58 @@
+﻿@page
+@model ElderEase.Pages.ServicesModel
+@using ElderEase.Models;
+@{
+}
+
+<h1>Available Services</h1>
+
+<form method="get">
+    <label for="searchInput">Search by Provider Name:</label>
+    <input type="text" id="searchInput" name="providerSearch" />
+
+    <label for="searchInput">Search by Service Name:</label>
+    <select id="searchInput" name="search">
+        <option value="">All</option>
+        @foreach (var serviceName in Enum.GetNames(typeof(ServiceNames)))
+        {
+            <option value="@serviceName">@serviceName</option>
+        }
+    </select>
+
+    <label for="filterInput">Filter by Service Type:</label>
+    <select id="filterInput" name="filter">
+        <option value="">All</option>
+        @foreach (var serviceType in Enum.GetNames(typeof(ServiceTypes)))
+        {
+            <option value="@serviceType">@serviceType</option>
+        }
+    </select>
+
+    <button type="submit">Apply</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Provider Name</th>
+            <th>Service Type</th>
+            <th>Service Name</th>
+            <th>Zip Code</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var provider in Model.FilteredProviders)
+        {
+            foreach (var service in provider.services.Where(s => s.isAvailable))
+            {
+                <tr>
+                    <td>@($"{provider.firstName} {provider.lastName}")</td>
+                    <td>@service.serviceType</td>
+                    <td>@service.serviceName</td>
+                    <td>@provider.zipCode</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
