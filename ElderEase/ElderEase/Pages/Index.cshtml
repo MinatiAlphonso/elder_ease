@@ -4,17 +4,35 @@
     ViewData["Title"] = "Home page";
     Layout = "_LayoutWithoutNavBar";
 }
-
-<div class="div">
-    <div class="div-2">
-        <div class="div-3">
-            <div class="div-4">
-                <img loading="lazy"
-                     src="../images/elderEaseLogo.svg"
-                     class="img" />
-                <div class="div-5">Elderease</div>
+<div class="welcome-container">
+    <div class="logo-container">
+        <img loading="lazy" src="../images/elderEaseLogo.svg" class="logo-img" />
+        <div class="app-name">ElderEase</div>
+    </div>
+    <div class="welcome-content">
+        <div class="app-section">
+            <div class="app-name-large">Elder Ease</div>
+            <div class="welcome-text">
+                Where volunteers and elders unite seamlessly,
+                offering support that's both heartfelt and flexible!
             </div>
-            <div class="div-6"><div class="div-7"></div></div>
+            <div class="portals">
+                <button class="portal-div" id="clientPortal">Client Portal</button>
+                <button class="portal-div" id="providerPortal">Provider Portal</button>
+            </div>
+        </div>
+        <div class="app-img-container">
+            <img loading="lazy" src="/images/welcomeImage.webp" class="app-img" />
+        </div>
+    </div>
+</div>
+@* <div class="welcome-container">
+    <div class="welcome-content">
+        <div class="div-3">
+            <div class="logo-container">
+                <img loading="lazy" src="../images/elderEaseLogo.svg" class="logo-img" />
+                <div class="app-name">ElderEase</div>
+            </div>
         </div>
         <div class="div-8">
             <div class="div-9">
@@ -71,3 +89,4 @@
         </div>
     </div>
 </div>
+ *@
