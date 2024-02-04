@@ -1,0 +1,70 @@
+﻿@page
+@model ElderEase.Pages.Clients.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Client</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Client.Id" />
+            <div class="form-group">
+                <label asp-for="Client.firstName" class="control-label"></label>
+                <input asp-for="Client.firstName" class="form-control" />
+                <span asp-validation-for="Client.firstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.lastName" class="control-label"></label>
+                <input asp-for="Client.lastName" class="form-control" />
+                <span asp-validation-for="Client.lastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.email" class="control-label"></label>
+                <input asp-for="Client.email" class="form-control" />
+                <span asp-validation-for="Client.email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.phone" class="control-label"></label>
+                <input asp-for="Client.phone" class="form-control" />
+                <span asp-validation-for="Client.phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.city" class="control-label"></label>
+                <input asp-for="Client.city" class="form-control" />
+                <span asp-validation-for="Client.city" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.state" class="control-label"></label>
+                <input asp-for="Client.state" class="form-control" />
+                <span asp-validation-for="Client.state" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.country" class="control-label"></label>
+                <input asp-for="Client.country" class="form-control" />
+                <span asp-validation-for="Client.country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.zipCode" class="control-label"></label>
+                <input asp-for="Client.zipCode" class="form-control" />
+                <span asp-validation-for="Client.zipCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
