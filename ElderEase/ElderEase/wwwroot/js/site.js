@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var providerPortalDiv = document.getElementById('providerPortal');
 
     // Adding click event listener
-    // Redirecting to SignIn.cshtml
+    // Redirecting to SignIn.cshtml with a query string
     clientPortalDiv.addEventListener('click', function() {
         window.location.href = '/SignIn?Role=client';
     });
