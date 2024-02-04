@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Ishika\source\repos\Black Wings Hack\black-wings-hacks-2024\ElderEase\ElderEase
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Ishika/source/repos/Black Wings Hack/black-wings-hacks-2024/ElderEase/ElderEase/Pages/Clients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ishika/source/repos/Black Wings Hack/black-wings-hacks-2024/ElderEase/ElderEase/Pages/Clients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ishika/source/repos/Black Wings Hack/black-wings-hacks-2024/ElderEase/ElderEase/Pages/Clients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ishika/source/repos/Black Wings Hack/black-wings-hacks-2024/ElderEase/ElderEase/Pages/Clients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ishika/source/repos/Black Wings Hack/black-wings-hacks-2024/ElderEase/ElderEase/Pages/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ishika/source/repos/Black Wings Hack/black-wings-hacks-2024/ElderEase/ElderEase/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -556,3 +556,4 @@ C:\Users\minat\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\D
 C:\Users\minat\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.pdb
 C:\Users\minat\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.genruntimeconfig.cache
 C:\Users\minat\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ref\ElderEase.dll
+C:\Users\Ishika\source\repos\Black Wings Hack\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

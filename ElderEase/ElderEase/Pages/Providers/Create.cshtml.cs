@@ -14,20 +14,31 @@ namespace ElderEase.Pages.Providers
     public class CreateModel : PageModel
     {
         private readonly ElderEase.Data.ElderEaseContext _context;
-
+          [BindProperty]
+        public Provider Provider { get; set; } = default!;
         public CreateModel(ElderEase.Data.ElderEaseContext context)
         {
             _context = context;
         }
-
+     
         public IActionResult OnGet()
         {
+            ServiceNameList = Enum.GetValues(typeof(ServiceNames))
+           .Cast<ServiceNames>()
+           .Select(s => new SelectListItem
+           {
+             Value = s.ToString(),
+             Text = EnumHelper.GetDescription(s)// Assuming you have the GetDescription extension method
+        })
+         .ToList();
             return Page();
         }
+        public List<SelectListItem> ServiceNameList { get; set; }
 
-        [BindProperty]
-        public Provider Provider { get; set; } = default!;
+        public Service newService = new Service();
+        public List<Service> selectedServices = new List<Service>();
 
+       
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
@@ -45,7 +56,7 @@ namespace ElderEase.Pages.Providers
                 }
                 return Page();
             }
-
+            Provider.services = selectedServices;
             _context.Providers.Add(Provider);
             await _context.SaveChangesAsync();
 

@@ -1,5 +1,6 @@
 ﻿using NuGet.Protocol;
 using System.ComponentModel;
+using System.Reflection;
 using System.Security.Authentication.ExtendedProtection;
 
 namespace ElderEase.Models
@@ -21,6 +22,26 @@ namespace ElderEase.Models
 
         [Description("Companion")]
         Companion
+    }
+
+    public static class EnumHelper
+    {
+        public static string GetDescription(Enum value)
+        {
+            FieldInfo field = value.GetType().GetField(value.ToString());
+
+            if (field != null)
+            {
+                DescriptionAttribute attribute = (DescriptionAttribute)Attribute.GetCustomAttribute(field, typeof(DescriptionAttribute));
+
+                if (attribute != null)
+                {
+                    return attribute.Description;
+                }
+            }
+
+            return value.ToString();
+        }
     }
 
     public class Service{
