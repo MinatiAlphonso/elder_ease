@@ -788,3 +788,4 @@ C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\
 C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.csproj.AssemblyReference.cache
 C:\Users\Khushi\Documents\GitHub\black-wings-hacks-2024\ElderEase\ElderEase\obj\Debug\net8.0\ElderEase.csproj.CopyComplete
+C:\Users\Ishika\source\repos\Black Wings Hack\black-wings-hacks-2024\ElderEase\ElderEase\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

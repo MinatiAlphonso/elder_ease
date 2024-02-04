@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khushi\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj": {}
+    "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khushi\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj": {
+    "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khushi\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
+        "projectUniqueName": "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
         "projectName": "ElderEase",
-        "projectPath": "C:\\Users\\Khushi\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
-        "packagesPath": "C:\\Users\\Khushi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khushi\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\obj\\",
+        "projectPath": "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
+        "packagesPath": "C:\\Users\\Ishika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Khushi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ishika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

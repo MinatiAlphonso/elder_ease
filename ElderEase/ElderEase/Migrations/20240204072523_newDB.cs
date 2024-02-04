@@ -7,7 +7,7 @@
 namespace ElderEase.Migrations
 {
     /// <inheritdoc />
-    public partial class anyNameYouWant : Migration
+    public partial class newDB : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

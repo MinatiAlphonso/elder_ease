@@ -35,8 +35,11 @@ namespace ElderEase.Pages
                     ? serviceName
                     : ServiceNames.HomeNurse; // Default to HomeNurse if parsing fails
 
-                query = query.Where(p =>
-                    p.services.Any(s => s.serviceName == searchServiceName)).ToList();
+                foreach (var provider in query) {
+                    provider.services = provider.services
+                        .Where(s => s.serviceName == searchServiceName && s.isAvailable == true).ToList();
+                }
+                query = query.Where(p => p.services.Any()).ToList();
             }
 
             if (!string.IsNullOrWhiteSpace(filter))
@@ -45,8 +48,12 @@ namespace ElderEase.Pages
                     ? serviceType
                     : ServiceTypes.Free;
 
-                query = query.Where(p =>
-                    p.services.Any(s => s.serviceType == filterServiceType)).ToList();
+                foreach (var provider in query)
+                {
+                    provider.services = provider.services
+                        .Where(s => s.serviceType == filterServiceType && s.isAvailable == true).ToList();
+                }
+                query = query.Where(p => p.services.Any()).ToList();
             }
 
             FilteredProviders = query;
