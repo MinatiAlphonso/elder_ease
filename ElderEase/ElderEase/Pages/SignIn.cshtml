@@ -10,7 +10,7 @@
             <input type="text" id="email" name="email" placeholder="Email" class="form-input">
             <input type="password" id="password" name="password" placeholder="Password" class="form-input">
             <a href="#" class="password-reset-link">Forgot your password?</a>
-            <button class="signin-button">Sign In</button>
+            <button class="signin-button" id="signIn">Sign In</button>
 
             @{
                 var signUpHref = Model.Role == "client" ? "/Clients/Create" : "/Providers/Create";

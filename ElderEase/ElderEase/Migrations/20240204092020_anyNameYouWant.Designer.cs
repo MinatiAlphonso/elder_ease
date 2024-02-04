@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ElderEase.Migrations
 {
     [DbContext(typeof(ElderEaseContext))]
-    [Migration("20240204072523_newDB")]
-    partial class newDB
+    [Migration("20240204092020_anyNameYouWant")]
+    partial class anyNameYouWant
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Using the unique ID to select the element
     var clientPortalDiv = document.getElementById('clientPortal');
     var providerPortalDiv = document.getElementById('providerPortal');
+    var signInBtn = document.getElementById('signIn');
 
     // Adding click event listener
     // Redirecting to SignIn.cshtml with a query string
@@ -16,6 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     providerPortalDiv.addEventListener('click', function () {
         window.location.href = '/SignIn?Role=provider';
+    });
+
+    signInBtn.addEventListener('click', function () {
+        window.location.href = '/Services';
     });
 });
 
