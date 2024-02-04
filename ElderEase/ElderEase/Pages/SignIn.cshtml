@@ -1,0 +1,19 @@
+﻿@page
+@model ElderEase.Pages.SignInModel
+@{
+    Layout = "_LayoutWithoutNavBar";
+}
+<div class="signin-container">
+    <div class="signin-content">
+        <div class="signin-form-container">
+            <h2 class="signin-title">Sign in to ElderEase</h2>
+            <input type="text" id="email" name="email" placeholder="Email" class="form-input">
+            <input type="password" id="password" name="password" placeholder="Password" class="form-input">
+            <a href="#" class="password-reset-link">Forgot your password?</a>
+            <button class="signin-button">Sign In</button>
+            <div class="signup-link-container">
+                Not registered yet? <a href="#" class="signup-link">Sign Up Here</a>
+            </div>
+        </div>
+    </div>
+</div>
