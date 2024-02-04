@@ -1,0 +1,78 @@
+﻿@page
+@model ElderEase.Pages.Providers.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].firstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].lastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].city)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].state)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provider[0].zipCode)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Provider) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.firstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.city)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.state)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.zipCode)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

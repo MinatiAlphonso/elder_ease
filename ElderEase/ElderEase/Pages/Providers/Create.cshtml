@@ -1,0 +1,74 @@
+﻿@page
+@model ElderEase.Pages.Providers.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Provider</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Provider.firstName" class="control-label"></label>
+                <input asp-for="Provider.firstName" class="form-control" />
+                <span asp-validation-for="Provider.firstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provider.lastName" class="control-label"></label>
+                <input asp-for="Provider.lastName" class="form-control" />
+                <span asp-validation-for="Provider.lastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provider.email" class="control-label"></label>
+                <input asp-for="Provider.email" class="form-control" />
+                <span asp-validation-for="Provider.email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provider.phone" class="control-label"></label>
+                <input asp-for="Provider.phone" class="form-control" />
+                <span asp-validation-for="Provider.phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provider.city" class="control-label"></label>
+                <input asp-for="Provider.city" class="form-control" />
+                <span asp-validation-for="Provider.city" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provider.state" class="control-label"></label>
+                <input asp-for="Provider.state" class="form-control" />
+                <span asp-validation-for="Provider.state" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provider.country" class="control-label"></label>
+                <input asp-for="Provider.country" class="form-control" />
+                <span asp-validation-for="Provider.country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provider.zipCode" class="control-label"></label>
+                <input asp-for="Provider.zipCode" class="form-control" />
+                <span asp-validation-for="Provider.zipCode" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <label asp-for="Provider.password" class="control-label"></label>
+                <input asp-for="Provider.password" class="form-control" />
+                <span asp-validation-for="Provider.password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
