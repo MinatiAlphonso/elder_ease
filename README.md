@@ -1,5 +1,3 @@
 # black-wings-hacks-2024
-Three lil chicks
-- Khushi Patil
-- Minati Alphonso
-- Prarthavi Patnekar
+Team Name: Three lil Chicks
+Team Members: Khushi Patil, Minati Alphonso, Prarthavi Patnekar
