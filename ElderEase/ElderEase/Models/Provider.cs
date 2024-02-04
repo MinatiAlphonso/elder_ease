@@ -13,7 +13,7 @@ namespace ElderEase.Models
         public string state { get; set; }
         public string country { get; set; }
         public string zipCode { get; set; }
-        public ICollection<Service> services { get; set; }
-        
+        public string password { get; set; }
+        public ICollection<Service> services { get; set; } = new List<Service>();
     }
 }

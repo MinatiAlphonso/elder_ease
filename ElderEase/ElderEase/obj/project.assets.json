@@ -757,6 +757,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Metadata/8.0.1": {
         "type": "package",
         "compile": {
@@ -3777,6 +3796,21 @@
         "lib/net8.0/Microsoft.AspNetCore.Components.Web.xml",
         "microsoft.aspnetcore.components.web.8.0.1.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.1": {
+      "sha512": "Nf8yYeRNh/jKdG3Rl1AesthuK6cWG1WCa8ZpQM1f7+CewyWCS/6PDOfM3Z2hvSVbSTzVsz5odWrsBzZ7RCNTZg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Metadata/8.0.1": {
@@ -7987,25 +8021,26 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter >= 8.0.1",
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\minat\\.nuget\\packages\\": {}
+    "C:\\Users\\Ishika\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minat\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
+      "projectUniqueName": "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
       "projectName": "ElderEase",
-      "projectPath": "C:\\Users\\minat\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
-      "packagesPath": "C:\\Users\\minat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minat\\Documents\\GitHub\\black-wings-hacks-2024\\ElderEase\\ElderEase\\obj\\",
+      "projectPath": "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\ElderEase.csproj",
+      "packagesPath": "C:\\Users\\Ishika\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ishika\\source\\repos\\Black Wings Hack\\black-wings-hacks-2024\\ElderEase\\ElderEase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\minat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ishika\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8032,6 +8067,10 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.1, )"
           },
