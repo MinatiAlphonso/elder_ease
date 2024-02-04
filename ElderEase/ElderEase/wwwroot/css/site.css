@@ -58,6 +58,7 @@
     margin-bottom: 20px; /* Spacing between the name and the portals */
     text-align: center;
     font-weight: bold;
+    color: #14C2DD;
 }
 .welcome-text {
     font-family: Poppins, sans-serif;
@@ -104,6 +105,54 @@
     max-width: 100%; /* Ensure the image is responsive within its container */
     height: auto;
     object-fit: cover; /* Ensures the image covers the area well without stretching */
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.elders-banner {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    /*flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    object-fit: cover;*/
+}
+.services-section {
+    padding: 40px 20px;
+    background-color: #D7FA85;
+    text-align: center;
+    width: 50%; /* Adjusts the width to take up the remaining half of the container */
+}
+
+.services-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-list li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 10px;
 }
 
 .signin-container {
